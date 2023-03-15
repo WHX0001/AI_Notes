@@ -86,7 +86,6 @@ def depth_limited_search(src_state, dst_state, limit):
     node = Node(src_state, None, None, 0)
     return recursive_dls(node, dst_state, limit)
 
-
 def recursive_dls(node, dst_state, limit):
     """
     :param node:
